@@ -9,7 +9,7 @@ for _ in range(qtd_cpf):
     for i in range(9):
         digitos_cpf += str(random.randint(0, 9))
 
-    # Primeiro dígito
+   
     contagem_1 = 10
     resultado_1 = 0
 
@@ -21,7 +21,7 @@ for _ in range(qtd_cpf):
     digito_1 = digito_1 if digito_1 <= 9 else 0
     digitos_cpf_2 = digitos_cpf + str(digito_1)
 
-    # Segundo dígito
+   
     contagem_2 = 11
     resultado_2 = 0
 
